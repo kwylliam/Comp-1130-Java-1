@@ -1,0 +1,13 @@
+/**
+ * Compute Area of a figure.
+ */
+public class Area {
+  
+  
+  public static void main(String[] args) { 
+    
+  final double PI= Math.PI;
+  double radius, area;
+  }
+  
+}

@@ -1,0 +1,30 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.Scanner;
+public class Time {
+  
+  
+  public static void main(String[] args) { 
+    
+    //Prompt for input
+    Scanner prompt=new Scanner(System.in);
+    System.out.print("Enter the number of seconds ");
+   int sec=prompt.nextInt();
+   
+   //Perform Convertion
+   int hours, min, seconds, rem;
+   hours = sec/3600;
+   rem= sec-(hours*3600);
+   min=rem/60;
+   rem= rem- (min*60);
+   seconds=rem;
+   
+   //Set up output
+ System.out.println(sec+" seconds"+"= "+hours+" hours, "+min+" minutes,  "+"and "+seconds+ " seconds");
+      
+    
+  }
+  
+
+}

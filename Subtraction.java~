@@ -1,0 +1,20 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class Subtraction {
+  
+  
+  public static void main(String[] args) { 
+    double num1, num2;
+  //Generate 2 random numbers
+  num1=Math.random()*10;
+  num2=Math.random()*10;
+  System.out.println(num1);
+  System.out.println(num2);
+  
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

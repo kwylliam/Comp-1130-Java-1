@@ -1,0 +1,26 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.Scanner;
+import java.util.Random;
+public class Username {
+  
+  
+  public static void main(String[] args) { 
+    //Get user input
+    Scanner name1= new Scanner(System.in);
+    System.out.println("Enter your first name ");
+    String fname=name1.nextLine();
+    
+    Scanner name2= new Scanner(System.in);
+    System.out.println("Enter your last name ");
+    String lname=name2.nextLine();
+    
+    //Generate username
+    String usname = lname.substring(0, 1);
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}
